@@ -1,0 +1,53 @@
+/* Navbar container */
+.navbar {
+    background-color: #20133b; /* Dark background color */
+    height: 50px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Navbar container for logo and navigation links */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Adjust width of the container */
+    max-width: 900px; /* Set maximum width */
+    padding: 0 10px; /* Add padding for the container */
+}
+
+/* Logo */
+.navbar-logo {
+    color: #fff; /* Text color */
+    font-size: 20px; /* Smaller font size */
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navigation menu */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation items */
+.nav-item {
+    margin-right: 10px; /* Adjust spacing between items */
+}
+
+/* Navigation links */
+.nav-links {
+    color: #fff; /* Text color */
+    text-decoration: none;
+    font-size: 16px; /* Smaller font size */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect on navigation links */
+.nav-links:hover {
+    color: #ffc107; /* Change text color on hover */
+}

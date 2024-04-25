@@ -1,0 +1,121 @@
+/* Container for the whole page */
+body{
+  color: white;
+  background-color: rgba(16, 20, 33, 1);
+}
+div {
+  font-family: Arial, sans-serif;
+  text-align: center; /* Center align content */
+}
+
+/* Styles for the notes section */
+.notes-section {
+  margin-bottom: 2rem;
+}
+
+.notes-section h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold; /* Make the title bold */
+}
+
+/* Styles for individual notes - assuming your Note component has some container element */
+.note {
+  background-color: #f9f9f9;
+  border-left: 5px solid #007bff;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.moviehd{
+  color: white;
+}
+.create-movie-container {
+  color: #333;
+}
+/* Styles for the form section */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+}
+
+form h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold; /* Make the title bold */
+}
+
+form label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles for product images */
+.product-image {
+  max-width: 10%; /* Set the width to 30% of the container */
+  height: auto;
+}
+
+/* Add border line after each product */
+.product {
+  border-bottom: 1px solid #ccc;
+}
+
+/* Make place names bold */
+.place-name {
+  font-weight: bold;
+}
+
+/* Styles for place boxes */
+.place-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  position: relative;
+}
+
+/* Styles for the line before the place name */
+.place-line:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  z-index: -1;
+}
+
+.image-container {
+  margin-top: 10px; /* Adjust as needed */
+}
